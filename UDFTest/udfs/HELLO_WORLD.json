@@ -1,0 +1,7 @@
+{
+  "name" : "HELLO_WORLD",
+  "language" : "JavaScript",
+  "output_type" : "STRING",
+  "input_types" : [ "STRING" ],
+  "code" : "// check to see if the card is VISA\nfunction HELLO_WORLD(card){\n    var cardType = \"Other\";\n    if (card.charAt(0) == 4){\n      cardType = \"Visa\";\n    }\n    return cardType;\n}\nHELLO_WORLD($p0); // this line must exist"
+}
